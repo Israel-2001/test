@@ -1,0 +1,257 @@
+@import url(https://fonts.google.com/specimen/Hanken+Grotesk);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10% auto;
+}
+
+.one{
+    width: 300px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, hsl(252deg 78% 57% / 77%), hsl(241deg 69% 42% / 87%));
+}
+
+.one h3{
+    margin: 0 auto;
+    font-family:  georgia;
+    font-weight: 100;
+    font-size: 15px;
+    color: #dfdada;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    margin: 2rem auto 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom,  hsl(241deg 43% 10% / 28%),hsl(252deg 66% 36% / 0%));
+}
+
+.circle .cir{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.circle span{
+    font-size: 16px;
+    color: #dfdada;
+}
+
+.main .one-a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-a h4{
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 700;
+    color: #dfdada;
+}
+.main .one-a p{
+    font-size: 12px;
+    margin: 0 67px;
+    text-align: center;
+    color: #dfdada;
+}
+
+.two{
+    width: 300px;
+    height: 460px;
+    display: flex;
+    margin-top: 0;
+    padding-left: 25px;
+    flex-direction: column;
+    justify-content: center;
+    border-left: transparent;
+    border-top: transparent;
+    border-bottom-right-radius: 19px;
+    box-shadow: 16px 12px 20px 0px hsl(0deg 0% 92%);
+}
+
+.two h2{
+    margin-top: -60px;
+}
+
+.sub{
+    display: flex;
+    flex-direction: column;
+    margin: 28px 20px;
+}
+
+.sub-score{
+    font-weight: 700;
+}
+
+.sub-1{
+    width: 200px;
+    display: flex;
+    margin: 10px 0;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: hsl(0, 50%, 99%);
+    border-radius: 10px;
+}
+
+.reaction{
+    width: 90px;
+    display: flex;
+    flex-direction: row;
+    color: hsl(0, 100%, 67%);
+    justify-content: space-between;
+}
+
+.sub-2{
+    width: 200px;
+    display: flex;
+    margin: 10px 0;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: hsl(50, 100%, 96%);
+    align-items: stretch;
+}
+
+.Memory{
+    width:100px;
+    display: flex;
+    flex-direction: row;
+    color: hsl(39, 100%, 56%);
+    justify-content: space-between;
+}
+
+.sub-3{
+    width: 200px;
+    display: flex;
+    margin: 10px 0;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(160, 100%, 98%);
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.Verbal{
+    width: 75px;
+    display: flex;
+    flex-direction: row;
+    color: hsl(166, 100%, 37%);
+    justify-content: space-between;
+}
+
+.sub-4{
+    width: 200px;
+    display: flex;
+    margin: 10px 0;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsl(225, 90%, 98%);
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.Visual{
+    width: 75px;
+    display: flex;
+    flex-direction: row;
+    color: hsl(234, 85%, 45%);
+    justify-content: space-between;
+}
+
+button{
+    width: 70%;
+    height: 40px;
+    border: 1px transparent;
+    border-radius: 35px;
+    margin: 0 33px -56px 33px;
+    background-color: hsl(224, 30%, 27%);
+    color: #fff;
+}
+
+@media (max-width: 48rem) {
+    .main{
+        flex-direction: column;
+        margin: 10% auto;
+    }
+
+    .one{
+        width: 400px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    .one h3{
+        font-size: 20px;
+    }
+    
+    .main .one-a p{
+        font-size: 15px;
+        margin: 10px 67px;
+        text-align: center;
+        color: #cac6c6;
+    }
+
+    .two{
+        width: 400px;
+        height: 550px;
+        margin-top: -10px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        box-shadow: 0px 20px 20px 0px hsl(0deg 0% 92%);
+    }
+
+    .two h2{
+        margin-top: -90px;
+    }
+
+    .sub{
+        margin: 10px 20px 10px 20px;
+    }
+
+    .sub-1{
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .sub-2{
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .sub-3{
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .sub-4{
+        width: 90%;
+        margin: 20px 0;
+    }
+    
+}
